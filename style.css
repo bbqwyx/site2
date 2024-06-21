@@ -1,0 +1,483 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 80px;
+    gap: 53px;
+    margin-bottom: 55px;
+}
+.menu img {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 47px;
+    height: 46px;
+    order: 0;
+}
+.menu a {
+    width: 107px;
+    height: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 10px;
+    transition: 0.5s;
+    text-align: center;
+}
+.menu a:hover {
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 10px;
+}
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 1374px;
+    height: 550px;
+    left: calc(50% - 1374px/2 - 3px);
+    background: url(container.png), #DCE5E2;
+    border-radius: 32px;
+    margin-bottom: 100px;
+}
+.btn {
+    box-sizing: border-box;
+    display: flex ;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 85px;
+    width: 234px;
+    height: 50px;
+    background: #DCE5E2;
+    border: 1px solid #000000;
+    border-radius: 200px;
+    flex: none;
+    order: 1;
+    text-decoration: none;
+    flex-grow: 0;
+    margin-right: 1040px;
+    color:#000000;
+    transition: 0.5s;
+}
+.btn:hover {
+    background: #000000;
+    color: #DCE5E2;
+}
+.main_container h1 {
+    width: 500px;
+    max-width: 500px;
+    height: 140px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 70px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 775px;
+    margin-top: 100px;
+    }
+.items_container h2 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.most_selled_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1377px;
+    height: 386px;
+}
+.laptop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px;
+    width: 300px;
+    height: 386px;
+    order: 0;
+    margin-left: 25px;
+}
+.laptop img {
+    width: 244px;
+    height: 214px;
+    border-radius: 0px;
+    order: 0;
+}
+.laptop .text_card {
+    width: 244px;
+    height: 28px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    order: 1;
+    align-self: stretch;
+}
+.laptop .price_card {
+    width: 244px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    order: 2;
+    align-self: stretch;
+}
+.smart_watch {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px;
+    width: 300px;
+    height: 386px;
+    order: 2;
+}
+.smart_watch img {
+    width: 244px;
+    height: 214px;
+    border-radius: 0px;
+    order: 0;
+}
+.smart_watch .text_card {
+    width: 244px;
+    height: 28px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    order: 1;
+    align-self: stretch;
+}
+.smart_watch .price_card {
+    width: 244px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    order: 2;
+    align-self: stretch;
+}
+.headphones {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px;
+    width: 300px;
+    height: 386px;
+    order: 2;
+}
+.headphones img {
+    width: 244px;
+    height: 214px;
+    border-radius: 0px;
+    order: 0;
+}
+.headphones .text_card {
+    width: 244px;
+    height: 28px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    order: 1;
+    align-self: stretch;
+}
+.headphones .price_card {
+    width: 244px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    order: 2;
+    align-self: stretch;
+}
+.tablet {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px;
+    width: 300px;
+    height: 386px;
+    order: 3;
+}
+.tablet img {
+    width: 244px;
+    height: 214px;
+    border-radius: 0px;
+    order: 0;
+}
+.tablet .text_card {
+    width: 244px;
+    height: 28px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    order: 1;
+    align-self: stretch;
+}
+.tablet .price_card {
+    width: 244px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    order: 2;
+    align-self: stretch;
+}
+.last_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+    width: 1374px;
+    height: 446px;
+    background: #DCE5E2;
+    border-radius: 16px;
+    margin-bottom: 65px;
+}
+.last_container h2 {
+    width: 393px;
+    max-width: 393px;
+    height: 105px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    order: 0;
+}
+.last_container img {
+    width: 241px;
+    height: 149px;
+    order: 1;
+    margin-bottom: 30px;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 400px;
+    height: 50px;
+    order: 2;
+}
+.type-phone {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 23px;
+    width: 270px;
+    height: 50px;
+    background: #DCE5E2;
+    border: 1px solid #000000;
+    border-radius: 54px 0px 0px 54px;
+    order: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+.subm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 50px;
+    background: #000000;
+    border-radius: 0px 200px 200px 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+.subm:hover {
+    background: #FFFFFF;
+    color: #000000;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-between;
+    padding: 40px 60px;
+    gap: 167px 40px;
+    height: 300px;
+    min-height: 300px;
+    background: #F8F9FA;
+}
+.company {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 38px;
+    gap: 15px;
+    width: 190px;
+    height: 102px;
+    order: 0;
+    margin-left: 125px;
+}
+.company h2 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    order: 0;
+    align-self: stretch;
+}
+.company .about {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    order: 1;
+}
+.company .support {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    order: 2;
+}
+.all_products {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 38px;
+    gap: 15px;
+    width: 204px;
+    height: 102px;
+    order: 1;
+}
+.all_products h2 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    order: 0;
+    align-self: stretch;
+}
+.all_products .phones {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    order: 1;
+}
+.all_products .watch {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    order: 2;
+}
+.follow_us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 38px;
+    gap: 15px;
+    width: 190px;
+    height: 102px;
+    order: 2;
+}
+.follow_us h2 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    order: 0;
+    align-self: stretch;
+}
+.follow_us .instagram {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    order: 1;
+}
+.follow_us .youtube {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    order: 2;
+}
+.footer img {
+    width: 62px;
+    height: 60px;
+    order: 0;
+}
